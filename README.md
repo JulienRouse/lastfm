@@ -195,6 +195,6 @@ consideration, similar to the `limit` parameter in the last.fm API case.
     and then pick a random song from this chosen artist. This is a random generator.
 
 ## Authors
-Copyright (c) 2019 [Mihai Olteanu](https://www.mihaiolteanu.me)
+Copyright (c) 2019 [Mihai Olteanu](http://www.mihaiolteanu.me)
 
 Licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
