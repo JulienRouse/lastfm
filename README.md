@@ -1,5 +1,5 @@
 # lastfm
-Interface for the [last.fm](www.last.fm) [API](www.last.fm/api), including the
+Interface for the [last.fm](https://www.last.fm) [API](https://www.last.fm/api), including the
 services that need authentication and song generators for extra functionality.
 
 # Installation
@@ -48,17 +48,9 @@ Load the library and generate the session key by calling the appropriate interfa
 (ql:quickload :lastfm)
 (lastfm:generate-session-key)
 ```
-This will open up the [last.fm/api/auth](last.fm/api/auth) page in your
-favorite browser and put a breakpoint in the code (My app is called muse, in
-this case. Yours might differ).
- 
- <table><tr><td>
- <img
- src="https://user-images.githubusercontent.com/8273519/59293481-f4614600-8c87-11e9-9320-7f97bb135c44.png"
- alt="grant permission to last.fm" width="600px"/>
-</td></tr></table>
- 
-You will need to grant this
+
+This will open up the [last.fm/api/auth](https://www.last.fm/api/auth) page in your
+ favorite browser and put a breakpoint in the code. You will need to grant this
  `lastfm` library permission to use your last.fm account ([step
  3](https://www.last.fm/api/desktopauth) in the official last.fm authentication
  process). 
@@ -133,7 +125,7 @@ If you don't follow this step, the lastfm services that need authentication
 ## last.fm API interfaces
 The following last.fm API interfaces are implemented by this library. `limit`
 means the number of items to return. Browse the official [last.fm
-API](www.last.fm/api) page for further details. All interfaces that don't need
+API](https://www.last.fm/api) page for further details. All interfaces that don't need
 authentication are memoized. A second call with the exact same parameters will
 be much faster and it won't result in a fresh last.fm request.
 
@@ -227,6 +219,6 @@ consideration, similar to the `limit` parameter in the last.fm API case.
     and then pick a random song from this chosen artist. This is a random generator.
 
 ## Authors
-Copyright (c) 2019 [Mihai Olteanu](www.mihaiolteanu.me)
+Copyright (c) 2019 [Mihai Olteanu](http://www.mihaiolteanu.me)
 
 Licensed under the [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html) license.
